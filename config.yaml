@@ -79,6 +79,8 @@ params:
       url: 'https://stackoverflow.com/users/12715116'
     - name: github
       url: 'https://github.com/zchary-ma'
+    - name: RsS
+      url: 'index.xml'
 
   analytics:
     google:
@@ -87,9 +89,9 @@ params:
       SiteVerificationTag: 'XYZabc'
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
 
   editPost:
     URL: 'https://github.com/Zchary-Ma/blog/edit/master/content/'
@@ -138,5 +140,16 @@ markup:
     lineNoStart: 1
     lineNos: true
     lineNumbersInTable: true
+    style: monokai
     # noClasses: true
     tabWidth: 4
+
+taxonomies:
+  category: categories
+  tag: tags
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
