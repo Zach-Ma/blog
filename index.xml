@@ -10,7 +10,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 May 2021 22:56:46 +0800</lastBuildDate><atom:link href="https://blog.zchary.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jul 2021 20:10:23 +0800</lastBuildDate><atom:link href="https://blog.zchary.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>当今信息时代的思考与反思</title>
+      <link>https://blog.zchary.cn/posts/info-in-life/</link>
+      <pubDate>Thu, 29 Jul 2021 20:10:23 +0800</pubDate>
+      
+      <guid>https://blog.zchary.cn/posts/info-in-life/</guid>
+      <description>信息输入 获取途径 打破信息茧房 个人实践做法：
+ 减少对基于算法分发的信息类产品的使用 整合信息源  信息处理 正确的信息价值观 专注能力的培养 信息输出 </description>
+    </item>
+    
+    <item>
+      <title>关于我个人的一些价值观和经验总结</title>
+      <link>https://blog.zchary.cn/posts/my-value/</link>
+      <pubDate>Wed, 21 Jul 2021 11:40:28 +0800</pubDate>
+      
+      <guid>https://blog.zchary.cn/posts/my-value/</guid>
+      <description> 从事应试教育培训行业的工作是一件相当悲哀的事情  </description>
+    </item>
+    
     <item>
       <title>关于Git大文件存储实践</title>
       <link>https://blog.zchary.cn/posts/git-lfs/</link>

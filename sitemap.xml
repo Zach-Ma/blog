@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.zchary.cn/posts/</loc>
+    <lastmod>2021-07-29T20:10:23+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.zchary.cn/</loc>
+    <lastmod>2021-07-29T20:10:23+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.zchary.cn/posts/info-in-life/</loc>
+    <lastmod>2021-07-29T20:10:23+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.zchary.cn/posts/my-value/</loc>
+    <lastmod>2021-07-21T11:40:28+08:00</lastmod>
+  </url><url>
     <loc>https://blog.zchary.cn/tags/dev-exp/</loc>
     <lastmod>2021-05-11T22:56:46+08:00</lastmod>
   </url><url>
     <loc>https://blog.zchary.cn/tags/git/</loc>
     <lastmod>2021-05-11T22:56:46+08:00</lastmod>
   </url><url>
-    <loc>https://blog.zchary.cn/posts/</loc>
-    <lastmod>2021-05-11T22:56:46+08:00</lastmod>
-  </url><url>
     <loc>https://blog.zchary.cn/tags/</loc>
-    <lastmod>2021-05-11T22:56:46+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.zchary.cn/</loc>
     <lastmod>2021-05-11T22:56:46+08:00</lastmod>
   </url><url>
     <loc>https://blog.zchary.cn/posts/git-lfs/</loc>
