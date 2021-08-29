@@ -6,6 +6,6 @@ personal blog for recording interesting thing about coding, living, etc...
 
 ## TODO
 
-- [ ] add analytic tools
-- [ ] self-hosted domain
+- [x] add analytic tools
+- [x] self-hosted domain
 - [ ] comment system
