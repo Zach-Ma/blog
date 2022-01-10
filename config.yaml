@@ -40,7 +40,7 @@ params:
 
   utteranc:
     enable: true
-    repo: scue/hugo-blogs-utterances
+    repo: Zchary-ma/Comments
     issueTerm: pathname
     theme: github-light
 
