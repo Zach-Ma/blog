@@ -1,7 +1,7 @@
-baseURL: 'https://blog.zchary.cn'
-languageCode: 'en-us'
+baseURL: "https://blog.zchary.cn"
+languageCode: "en-us"
 title: "Zchary's blog"
-theme: 'PaperMod'
+theme: "PaperMod"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -15,13 +15,13 @@ minify:
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production
   title: Zchary's blog
-  description: 'Web dev related | share lives'
-  keywords: [Blog, Portfolio, Golang, NodeJS, JavaScript, TypeScript]
-  author: 'Zchary'
-  images: ['avatar.PNG']
-  DateFormat: 'January 2, 2006'
+  description: "Web dev related | share lives"
+  keywords: [Blog, Portfolio, Golang, NodeJS, Backend, Geek, TypeScript]
+  author: "Zchary"
+  images: ["avatar.png"]
+  DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
 
@@ -32,32 +32,38 @@ params:
   ShowCodeCopyButtons: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
   tocopen: false
 
+  utteranc:
+    enable: true
+    repo: scue/hugo-blogs-utterances
+    issueTerm: pathname
+    theme: github-light
+
   assets:
     disableHLJS: true
     # disableFingerprinting: true
-    favicon: '/favicon.ico'
-    favicon16x16: '/favicon-16x16.png'
-    favicon32x32: '/favicon-32x32.png'
-    apple_touch_icon: '/apple-touch-icon.png'
-    safari_pinned_tab: '/safari-pinned-tab.svg'
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
 
   label:
     #   text: 'Home'
-    icon: 'avatar.png'
+    icon: "avatar.png"
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
     title: ExampleSite
-    subtitle: 'This is subtitle'
-    imageUrl: 'assets/images/avatar.png'
+    subtitle: "This is subtitle"
+    imageUrl: "assets/images/avatar.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -70,23 +76,23 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Get busy living or get busy dying.
+    Content: a passion-driven developer.
 
   socialIcons:
     - name: twitter
-      url: 'https://twitter.com/zcharyMa'
+      url: "https://twitter.com/zcharyMa"
     - name: stackoverflow
-      url: 'https://stackoverflow.com/users/12715116'
+      url: "https://stackoverflow.com/users/12715116"
     - name: github
-      url: 'https://github.com/zchary-ma'
-    - name: RsS
-      url: 'index.xml'
+      url: "https://github.com/zchary-ma"
+    - name: RSS
+      url: "index.xml"
 
   analytics:
     google:
-      SiteVerificationTag: 'XYZabc'
+      SiteVerificationTag: "G-R55X0MJ64S"
     baidu:
-      SiteVerificationTag: 'XYZabc'
+      SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true
@@ -94,8 +100,8 @@ params:
     hiddenInSingle: true
 
   editPost:
-    URL: 'https://github.com/Zchary-Ma/blog/edit/master/content/'
-    Text: 'Suggest Changes' # edit text
+    URL: "https://github.com/Zchary-Ma/blog/edit/master/content/"
+    Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -107,7 +113,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ['title', 'permalink', 'summary', 'content']
+    keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
     - identifier: categories
@@ -126,6 +132,10 @@ menu:
       name: archives
       url: /archives/
       weight: 40
+    - identifier: projects
+      name: projects
+      url: /projects/
+      weight: 50
     - identifier: about
       name: about
       url: /about/
