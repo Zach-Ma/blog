@@ -5,8 +5,8 @@
     <link>https://blog.zchary.cn/</link>
     <description>Recent content on Zchary&#39;s blog</description>
     <image>
-      <url>https://blog.zchary.cn/avatar.PNG</url>
-      <link>https://blog.zchary.cn/avatar.PNG</link>
+      <url>https://blog.zchary.cn/avatar.png</url>
+      <link>https://blog.zchary.cn/avatar.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -76,6 +76,15 @@
       <description>About</description>
     </item>
     
+    
+    <item>
+      <title>Projects</title>
+      <link>https://blog.zchary.cn/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.zchary.cn/projects/</guid>
+      <description>projects</description>
+    </item>
     
     
   </channel>
