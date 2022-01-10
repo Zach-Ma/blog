@@ -42,7 +42,7 @@ params:
     enable: true
     repo: Zchary-ma/Comments
     issueTerm: pathname
-    theme: github-light
+    theme: github-dark
 
   assets:
     disableHLJS: true
